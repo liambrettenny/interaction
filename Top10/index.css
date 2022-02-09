@@ -1,0 +1,82 @@
+
+
+h1 {font-size: 20px;
+width: 100%;
+height: 200px;
+margin-bottom: 1%;
+Display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+
+#denisopen {display: none;
+  width: 40%;
+}
+
+#Denis {margin-bottom: 10px;
+margin-left: 10%;}
+
+#rogeropen {display: none;
+  width: 40%;
+}
+
+#Roger {margin-bottom: 10px;
+margin-left: 10%;}
+
+#jonyopen {display: none;
+  width: 40%;
+}
+
+#Jony {margin-bottom: 10px;
+margin-left: 10%;}
+
+#esopen {display: none;
+  width: 40%;
+}
+
+#Es {margin-bottom: 10px;
+margin-left: 10%;}
+
+#erikopen {display: none;
+  width: 40%;
+}
+
+#Erik {margin-bottom: 10px;
+margin-left: 10%;}
+
+#jonathanopen {display: none;
+  width: 40%;
+}
+
+#Jonathan {margin-bottom: 10px;
+margin-left: 10%;}
+
+#akikoopen {display: none;
+  width: 40%;
+}
+
+#Akiko {margin-bottom: 10px;
+margin-left: 10%;}
+
+#tinkeropen {display: none;
+  width: 40%;
+}
+
+#Tinker {margin-bottom: 10px;
+margin-left: 10%;}
+
+#caseyopen {display: none;
+  width: 40%;
+}
+
+#Casey {margin-bottom: 10px;
+margin-left: 10%;}
+
+#ianopen {display: none;
+  width: 40%;
+}
+
+#Ian {margin-bottom: 10px;
+margin-left: 10%;}
