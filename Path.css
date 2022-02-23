@@ -1,0 +1,85 @@
+#buttonshop {display:;
+background-color: white;
+height: auto;
+width: 100%;}
+
+#container {display:inline-flex;}
+
+#shop {display:}
+
+#playshop {text-decoration: none;
+            border: none;
+            text-transform: none;
+ font-family: serif;
+  font-size: 18px;
+  background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor: pointer;}
+
+#pauseshop {text-decoration: none;
+            border: none;
+            text-transform: none;
+ font-family: serif;
+ font-size: 18px;
+ margin-right: 20px;
+ background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor: pointer;}
+
+#NameShop { font-size: 18px;
+position: absolute;
+margin-left: 180px;}
+
+#InfoShop {font-size: 18px;
+  position: absolute;
+  margin-left: 580px;}
+
+#TimeShop {font-size: 18px;
+  width: 100px;
+  position: absolute;
+  margin-left: 400px;
+margin-right:}
+
+#buttonRoom {display:;
+background-color: white;
+height: auto;
+width: 100%;}
+
+#container {display:inline-flex;}
+
+#playRoom {text-decoration: none;
+            border: none;
+            text-transform: none;
+ font-family: serif;
+  font-size: 18px;
+  background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor: pointer;}
+
+#pauseRoom {text-decoration: none;
+            border: none;
+            text-transform: none;
+ font-family: serif;
+ font-size: 18px;
+ margin-right: 20px;
+ background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor: pointer;}
+
+#NameRoom { font-size: 18px;
+position: absolute;
+margin-left: 180px;}
+
+#InfoRoom {font-size: 18px;
+  position: absolute;
+  margin-left: 580px;}
+
+#TimeRoom {font-size: 18px;
+  width: 100px;
+  position: absolute;
+  margin-left: 400px;
+margin-right:}

@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>Shape Compositions</title>
+    <link rel="stylesheet" href="Path.css">
+    <script>
+    document.addEventListener('play', function(e){
+        var audios = document.getElementsByTagName('audio');
+        for(var i = 0, len = audios.length; i < len;i++){
+            if(audios[i] != e.target){
+                audios[i].pause();
+            }
+        }
+    }, true);
+     </script>
+
+
+  </head>
+
+  <body>
+
+<div id="Room">
+<div id="buttonRoom">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Room_mp3cut.net_zauk5k.mp3" id="playerRoom" loop></audio>
+<div id="container">
+          <button id="playRoom" onclick="play(Room)">Play</button>
+          <button id="pauseRoom" onclick="pause(Room)">Pause</button>
+          <div id="NameRoom">433 Menahan St</div>
+          <div id="TimeRoom">9:01AM</div>
+          <div id="InfoRoom">Room</div>
+</div>
+</div>
+
+
+
+<div id="shop">
+<div id="buttonshop">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
+<div id="container">
+          <button id="playshop" onclick="play(shop)">Play</button>
+          <button id="pauseshop" onclick="pause(shop)">Pause</button>
+          <div id="NameShop">433 Menahan St</div>
+          <div id="TimeShop">9:03AM</div>
+          <div id="InfoShop">Apartment</div>
+</div>
+</div>
+
+<div id="shop">
+<div id="buttonshop">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
+<div id="container">
+          <button id="playshop" onclick="play(shop)">Play</button>
+          <button id="pauseshop" onclick="pause(shop)">Pause</button>
+          <div id="NameShop">559 Cypress Ave</div>
+          <div id="TimeShop">9:05AM</div>
+          <div id="InfoShop">Ps 81 Jean Paul Richter</div>
+</div>
+</div>
+
+<div id="shop">
+<div id="buttonshop">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
+<div id="container">
+          <button id="playshop" onclick="play(shop)">Play</button>
+          <button id="pauseshop" onclick="pause(shop)">Pause</button>
+          <div id="NameShop">1702 Stanhope St</div>
+          <div id="TimeShop">9:09AM</div>
+          <div id="InfoShop">Construction</div>
+</div>
+</div>
+
+<div id="shop">
+<div id="buttonshop">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
+<div id="container">
+          <button id="playshop" onclick="play(shop)">Play</button>
+          <button id="pauseshop" onclick="pause(shop)">Pause</button>
+          <div id="NameShop">215 Cypress Ave</div>
+          <div id="TimeShop">9:15AM</div>
+          <div id="InfoShop">Dog Barking</div>
+</div>
+</div>
+
+<div id="shop">
+<div id="buttonshop">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
+<div id="container">
+          <button id="playshop" onclick="play(shop)">Play</button>
+          <button id="pauseshop" onclick="pause(shop)">Pause</button>
+          <div id="NameShop">39 St Nicholas Ave</div>
+          <div id="TimeShop">9:21AM</div>
+          <div id="InfoShop">Ice Cream Truck</div>
+</div>
+</div>
+
+
+
+      <script>
+        function play(shop) {
+          document.getElementById('playershop').play(shop);
+        }
+
+        function pause(shop) {
+          document.getElementById('playershop').pause(shop);
+        }
+
+        function play(Room) {
+          document.getElementById('playerRoom').play();
+        }
+
+        function pause(Room) {
+          document.getElementById('playerRoom').pause();
+        }
+      </script>
+
+
+
+
+
+  </body>
+</html>
