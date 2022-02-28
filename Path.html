@@ -23,8 +23,8 @@
 <div id="buttonRoom">
           <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Room_mp3cut.net_zauk5k.mp3" id="playerRoom" loop></audio>
 <div id="container">
-          <button id="playRoom" onclick="play(Room)">Play</button>
-          <button id="pauseRoom" onclick="pause(Room)">Pause</button>
+          <button id="playRoom" onclick="playRoom(Room)">Play</button>
+          <button id="pauseRoom" onclick="pauseRoom(Room)">Pause</button>
           <div id="NameRoom">433 Menahan St</div>
           <div id="TimeRoom">9:01AM</div>
           <div id="InfoRoom">Room</div>
@@ -37,8 +37,8 @@
 <div id="buttonshop">
           <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
 <div id="container">
-          <button id="playshop" onclick="play(shop)">Play</button>
-          <button id="pauseshop" onclick="pause(shop)">Pause</button>
+          <button id="playshop" onclick="playShop(shop)">Play</button>
+          <button id="pauseshop" onclick="pauseShop(shop)">Pause</button>
           <div id="NameShop">433 Menahan St</div>
           <div id="TimeShop">9:03AM</div>
           <div id="InfoShop">Apartment</div>
@@ -47,19 +47,23 @@
 
 
       <script>
-        function play(shop) {
+        function playShop(shop) {
+          console.log('We are in the play shop function. Shop: ', shop)
           document.getElementById('playershop').play(shop);
         }
 
-        function pause(shop) {
+        function pauseShop(shop) {
+          console.log('We are in the pause shop function. Shop: ', shop)
           document.getElementById('playershop').pause(shop);
         }
 
-        function play(Room) {
+        function playRoom(room) {
+          console.log('We are in the play room function. Room: ', room)
           document.getElementById('playerRoom').play();
         }
 
-        function pause(Room) {
+        function pauseRoom(room) {
+          console.log('We are in the pause room function. Room: ', room)
           document.getElementById('playerRoom').pause();
         }
       </script>
