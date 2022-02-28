@@ -23,8 +23,8 @@
 <div id="buttonRoom">
           <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Room_mp3cut.net_zauk5k.mp3" id="playerRoom" loop></audio>
 <div id="container">
-          <button id="playRoom" onclick="playRoom(Room)">Play</button>
-          <button id="pauseRoom" onclick="pauseRoom(Room)">Pause</button>
+          <button id="playRoom" onclick="playAudio('room',Room)">Play</button>
+          <button id="pauseRoom" onclick="pauseAudio('room', Room)">Pause</button>
           <div id="NameRoom">433 Menahan St</div>
           <div id="TimeRoom">9:01AM</div>
           <div id="InfoRoom">Room</div>
@@ -37,8 +37,8 @@
 <div id="buttonshop">
           <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
 <div id="container">
-          <button id="playshop" onclick="playShop(shop)">Play</button>
-          <button id="pauseshop" onclick="pauseShop(shop)">Pause</button>
+          <button id="playshop" onclick="playAudio('shop', shop)">Play</button>
+          <button id="pauseshop" onclick="pauseAudio('shop2', shop)">Pause</button>
           <div id="NameShop">433 Menahan St</div>
           <div id="TimeShop">9:03AM</div>
           <div id="InfoShop">Apartment</div>
@@ -47,25 +47,48 @@
 
 
       <script>
-        function playShop(shop) {
-          console.log('We are in the play shop function. Shop: ', shop)
-          document.getElementById('playershop').play(shop);
+        function playAudio(audioName, audioObject) {
+          console.log('Audio Name is: ', audioName);
+          console.log('AudioObject is: ', audioObject);
+          if(audioName === 'shop'){
+            document.getElementById('playershop').play(audioObject);
+          }
+          else if (audioName === 'room'){
+            document.getElementById('playerRoom').play(audioObject);
+          }
+        }
+        
+        function pauseAudio(audioName, audioObject) {
+          console.log('Audio Name is: ', audioName);
+          console.log('AudioObject is: ', audioObject);
+          if(audioName === 'shop'){
+            document.getElementById('playershop').pause(audioObject);
+          }
+          else if (audioName === 'room'){
+            document.getElementById('playerRoom').pause(audioObject);
+          }
         }
 
-        function pauseShop(shop) {
-          console.log('We are in the pause shop function. Shop: ', shop)
-          document.getElementById('playershop').pause(shop);
-        }
 
-        function playRoom(room) {
-          console.log('We are in the play room function. Room: ', room)
-          document.getElementById('playerRoom').play();
-        }
+        // function playShop(shop) {
+        //   console.log('We are in the play shop function. Shop: ', shop)
+        //   document.getElementById('playershop').play(shop);
+        // }
 
-        function pauseRoom(room) {
-          console.log('We are in the pause room function. Room: ', room)
-          document.getElementById('playerRoom').pause();
-        }
+        // function pauseShop(shop) {
+        //   console.log('We are in the pause shop function. Shop: ', shop)
+        //   document.getElementById('playershop').pause(shop);
+        // }
+
+        // function playRoom(room) {
+        //   console.log('We are in the play room function. Room: ', room)
+        //   document.getElementById('playerRoom').play();
+        // }
+
+        // function pauseRoom(room) {
+        //   console.log('We are in the pause room function. Room: ', room)
+        //   document.getElementById('playerRoom').pause();
+        // }
       </script>
 
 
