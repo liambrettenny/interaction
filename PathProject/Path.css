@@ -85,7 +85,7 @@ padding-right: 30px;}
 #info {width: 100%;}
 
 
-#playLights {border: none;
+.playLights {border: none;
 background-color: white;
 padding: none;
 cursor: pointer;
@@ -99,7 +99,7 @@ font-family: NeueBit;
     -moz-appearance: none;
     appearance: none;}
 
-#pauseLights {border: none;
+.pauseLights {border: none;
 background-color: white;
 padding: none;
 text-transform: uppercase;
