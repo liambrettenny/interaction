@@ -2,8 +2,11 @@
   <head>
     <title>Shape Compositions</title>
     <link rel="stylesheet" href="Path.css">
+
+
+
     <script>
-    
+
     document.addEventListener('play', function(e){
         var audios = document.getElementsByTagName('audio');
         for(var i = 0, len = audios.length; i < len;i++){
@@ -19,29 +22,82 @@
 
   <body>
 
+
+    <div id="PageInfo">
+
+      <div id="Return"<a href="" target="_blank"><text>Return</text></a></div>
+
+<div id="InfoBar">
+      <a href="https://www.linkedin.com/in/liam-brettenny-030928197/" target="_blank"><text>Liam Brettenny</text></a>
+      <a href="https://goo.gl/maps/G8c1ngfaaDuYM2t6A" target="_blank"><text>New York, NY</text></a>
+      <a href="" target="_blank"><text>Parsons School of Design</text></a>
+      <a href="" target="_blank"><text>Spring Semester</text></a>
+      <a href="" target="_blank"><text>Typography & Interaction II</text></a>
+      <a href="" target="_blank"><text>Path Project</text></a>
+</div>
+</div>
+
+
+    <div id="Space">SPAM</div>
+    <div id="Space">SPAM</div>
+
+    <div id="Title"><h2>Path Archive</h2><h2>A collection of ordinary sounds sourced from day-to-day moments.</h2></div>
+    <div id="Space">SPAM</div>
+    <div id="Description"></div>
+
+    </div>
+
+<div id="indexcontainer">
+
+
+
+<div id="audioindex">
+
 <div id="Room">
 <div id="buttonRoom">
           <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Room_mp3cut.net_zauk5k.mp3" id="playerRoom" loop></audio>
-<div id="container">
+
           <button id="playRoom" onclick="playAudio('room',Room)">Play</button>
           <button id="pauseRoom" onclick="pauseAudio('room', Room)">Pause</button>
-          <div id="NameRoom">433 Menahan St</div>
-          <div id="TimeRoom">9:01AM</div>
-          <div id="InfoRoom">Room</div>
-</div>
-</div>
-
-
+</div></div>
 
 <div id="shop">
 <div id="buttonshop">
           <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
-<div id="container">
+
           <button id="playshop" onclick="playAudio('shop', shop)">Play</button>
           <button id="pauseshop" onclick="pauseAudio('shop', shop)">Pause</button>
-          <div id="NameShop">433 Menahan St</div>
-          <div id="TimeShop">9:03AM</div>
-          <div id="InfoShop">Apartment</div>
+</div></div>
+
+</div>
+
+
+
+<div id="Location">
+<div id="info">433 Menahan St</div>
+<div id="info">433 Menahan St Drive</div>
+<div id="info">433 Menahan St</div>
+<div id="info">433 Menahan St Drive</div>
+</div>
+
+<div id="Duration">
+<div id="info">433 Menahan St</div>
+<div id="info">433 Menahan St Drive</div>
+<div id="info">433 Menahan St</div>
+<div id="info">433 Menahan St Drive</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -56,8 +112,10 @@
           else if (audioName === 'room'){
             document.getElementById('playerRoom').play(audioObject);
           }
+
+
         }
-        
+
         function pauseAudio(audioName, audioObject) {
           console.log('Audio Name is: ', audioName);
           console.log('AudioObject is: ', audioObject);
@@ -70,25 +128,8 @@
         }
 
 
-        // function playShop(shop) {
-        //   console.log('We are in the play shop function. Shop: ', shop)
-        //   document.getElementById('playershop').play(shop);
-        // }
 
-        // function pauseShop(shop) {
-        //   console.log('We are in the pause shop function. Shop: ', shop)
-        //   document.getElementById('playershop').pause(shop);
-        // }
 
-        // function playRoom(room) {
-        //   console.log('We are in the play room function. Room: ', room)
-        //   document.getElementById('playerRoom').play();
-        // }
-
-        // function pauseRoom(room) {
-        //   console.log('We are in the pause room function. Room: ', room)
-        //   document.getElementById('playerRoom').pause();
-        // }
       </script>
 
 

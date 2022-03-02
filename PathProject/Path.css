@@ -1,0 +1,138 @@
+
+
+@font-face {
+  font-family: NeueBit;
+  src: url(https://res.cloudinary.com/dl5o7qorw/raw/upload/v1646187030/NeueBit-Regular_ak3kqr.ttf);
+}
+
+Body {font-family: NeueBit;
+text-transform: ;
+font-size: 20px;}
+
+#PageInfo {  display: flex;
+  align-items: flex-start;
+  height: ;
+width: 100% ;}
+
+#InfoBar {  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: ;
+width: 100% ;}
+
+
+
+
+
+#Return {display: flex;
+  align-items: flex-start;
+  width: 17.7%;
+}
+
+Text {text-decoration: none;
+color: Black;}
+
+#Space {color: White;}
+
+
+
+#playRoom {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+color: black;
+font-size: 20px;
+text-transform: uppercase;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseRoom {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#pauseshop {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playshop {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#Room {display: flex;
+  align-items: flex-start;
+
+
+}
+
+#shop {display: flex;
+  align-items: flex-start;
+}
+
+#audioindex { display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%;
+position: relative;}
+
+  #indexinfo {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  position: relative;}
+
+  #Title {  display: flex;
+    align-items: flex-start;
+    height: ;
+  width: 100%;}
+
+
+h2 {border: none;
+background-color: white;
+font-weight: lighter;
+padding: none;
+font-size: 20px;
+cursor: pointer;
+color: black;
+ margin: -1px; padding: 0; border-width: 1px;
+width: 15.2%;
+}
+
+#Location{ display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    font-weight: 100;
+  }
+
+#Duration { display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 20%;
+      font-weight: 100;}
+
+#indexcontainer {  display: flex;
+  align-items: flex-start;
+  height: ;
+width: 100%;}
+
+.info {}
