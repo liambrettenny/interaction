@@ -94,7 +94,10 @@ font-size: 20px;
 text-transform: uppercase;
  margin: -1px; padding: 0; border-width: 1px;
 margin-right: 10px;
-font-family: NeueBit;}
+font-family: NeueBit;
+-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;}
 
 #pauseLights {border: none;
 background-color: white;
@@ -104,7 +107,10 @@ cursor: pointer;
 color: black;
 font-size: 20px;
  margin: -1px; padding: 0; border-width: 1px;
-font-family: NeueBit;}
+font-family: NeueBit;
+-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;}
 
 #pauseshop {border: none;
 background-color: white;
