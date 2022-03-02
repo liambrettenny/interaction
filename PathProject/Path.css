@@ -7,36 +7,85 @@
 
 Body {font-family: NeueBit;
 text-transform: ;
-font-size: 20px;}
+font-size: 20px;
+margin: 0px;}
 
 #PageInfo {  display: flex;
   align-items: flex-start;
   height: ;
-width: 100% ;}
+width: 100% ;
+text-decoration: none}
 
 #InfoBar {  display: flex;
   align-items: flex-start;
   justify-content: space-between;
   height: ;
-width: 100% ;}
+width: 70% ;
+
+text-decoration: none;
+margin-top: 5px;}
+
+#DataInfo {display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 15%;
+          font-weight: 100;
+        padding-right: 20px;
+
+}
+
+#DataInfo1 {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 16.5%;
+    font-weight: 100;
+
+}
+
+#DataInfo2 {display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 15%;
+          font-weight: 100;
+        padding-: ;
+
+}
 
 
+h1 {color: black;
+font-size: 20px;
+text-decoration: none;
+font-style: normal;
+font-family: NeueBit;
+padding: none;
+font-weight: lighter;}
 
-
+#time {width: 100%;
+  display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
 
 #Return {display: flex;
   align-items: flex-start;
-  width: 17.7%;
+  width: 14.5%;
+  color: Black;
+  font-style: normal;
+  margin-top: 5px;
 }
 
-Text {text-decoration: none;
-color: Black;}
+text {text-decoration: none;
+color: Black;
+font-style: normal;
+padding-right: 30px;}
 
 #Space {color: White;}
 
+#info {width: 100%;}
 
 
-#playRoom {border: none;
+#playLights {border: none;
 background-color: white;
 padding: none;
 cursor: pointer;
@@ -47,7 +96,7 @@ text-transform: uppercase;
 margin-right: 10px;
 font-family: NeueBit;}
 
-#pauseRoom {border: none;
+#pauseLights {border: none;
 background-color: white;
 padding: none;
 text-transform: uppercase;
@@ -78,21 +127,543 @@ font-size: 20px;
 margin-right: 10px;
 font-family: NeueBit;}
 
-#Room {display: flex;
-  align-items: flex-start;
+#playKeep {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseKeep {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playbob {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausebob {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playSchool {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseSchool {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playstroll {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausestroll {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playice {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseice {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playhusband {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausehusband {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playdog {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausedog {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playpat {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausepat {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playsirens {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausesirens {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playtrash {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausetrash {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playbird {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausebird {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playfire {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausefire {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playdrill {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausedrill {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playcement {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausecement {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playvacuum {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausevacuum {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playfactory {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausefactory {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playgale {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausegale {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playempty {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseempty {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playtoy {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausetoy {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playside {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseside {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playthrifted {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausethrifted {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playheard {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pauseheard {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playcup {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausecup {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playnook {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausenook {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
+
+#playsidewalk {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+margin-right: 10px;
+font-family: NeueBit;}
+
+#pausesidewalk {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: -1px; padding: 0; border-width: 1px;
+font-family: NeueBit;}
 
 
-}
 
-#shop {display: flex;
-  align-items: flex-start;
-}
+
+
 
 #audioindex { display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 15%;
-position: relative;}
+  width: 20%;
+position: relative;
+margin-left: -30px;
+margin-right: -60px;}
 
   #indexinfo {display: flex;
     flex-direction: column;
@@ -100,37 +671,107 @@ position: relative;}
     width: 100%;
   position: relative;}
 
-  #Title {  display: flex;
-    align-items: flex-start;
-    height: ;
-  width: 100%;}
+  #Title { display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 14.5%;
+      font-weight: 100;
+    }
+
+    #Description { display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 20%;
+        font-weight: 100;
+        padding-right: ;
+      }
 
 
-h2 {border: none;
-background-color: white;
-font-weight: lighter;
-padding: none;
-font-size: 20px;
-cursor: pointer;
-color: black;
- margin: -1px; padding: 0; border-width: 1px;
-width: 15.2%;
-}
 
-#Location{ display: flex;
+    #How { display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 25%;
+          font-weight: 100;
+          padding-right: ;
+          display: none;
+        }
+
+
+#line {width: 100%;
+height: 0.5px;
+background-color: black;
+opacity: 50%;}
+
+#line2 {width: 100%;
+height: 1px;
+background-color: black;
+opacity: 50%;}
+
+#Location { display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 20%;
+    width: 15%;
     font-weight: 100;
-  }
+    padding-right: 20px;
+}
+
+#Name { display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15%;
+    font-weight: 100;
+    padding-right: 20px;
+    padding-left: -20px;
+
+}
 
 #Duration { display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 20%;
-      font-weight: 100;}
+        width: 15%;
+      font-weight: 100;
+    padding-right: 20px;}
+
+#TimeStamp { display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 15%;
+          font-weight: 100;
+        padding-right: 20px;}
+
+#info {width: 80%;
+}
+
+
+#Date { display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 15%;
+                  font-weight: 100;
+                padding-right: 20px;}
+
+
+#Collections { display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 15%;
+font-weight: 100;
+padding-right: 20px;}
+
+#Collection2 { opacity: 50%}
+#Collection3 { opacity: 50%}
+#Collection4 { opacity: 50%}
+
+
+
 
 #indexcontainer {  display: flex;
+  align-items: flex-start;
+  height: ;
+width: 100%;}
+
+#InfoConatiner {  display: flex;
   align-items: flex-start;
   height: ;
 width: 100%;}
