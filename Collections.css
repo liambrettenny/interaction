@@ -1,0 +1,1051 @@
+@font-face {
+  font-family: NeueBit;
+  src: url(https://res.cloudinary.com/dl5o7qorw/raw/upload/v1646187030/NeueBit-Regular_ak3kqr.ttf);
+}
+
+Body {font-family: NeueBit;
+text-transform: ;
+font-size: 20px;
+margin: 0px;}
+
+#time {width: ;
+  display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    margin-top: 70px;
+    top: 0px; right: 0; border: 0;
+}
+
+#Back_btn {display: flex;
+  align-items: flex-start;
+  width: 100%;
+  color: Black;
+  font-style: normal;
+
+}
+
+#backcontainer {display: flex;
+  align-items: flex-start;
+  width: 13%;
+  color: Black;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+text {text-decoration: none;
+color: Black;
+font-style: normal;
+width: 15%}
+
+#text2 {text-decoration: none;
+color: Black;
+font-style: normal;
+padding-right: ;
+width: 100%}
+
+#textblock {text-decoration: none;
+color: Black;
+font-style: normal;
+padding-right: ;
+width: 20%}
+
+#PageInfo {  display: flex;
+  align-items: flex-start;
+  height: ;
+  margin-top: 20px;
+width: 100% ;
+text-decoration: none;
+}
+
+#Volumes {  display: flex;
+}
+
+nav {margin-left: 20px;
+opacity: 50%;}
+nav2 {margin-left: 20px;
+opacity: 100%;}
+nav1 {margin-left: 0px;}
+
+#line {width: 100%;
+height: 0.5px;
+background-color: black;
+opacity: 50%;
+margin-top: -1px;
+margin-bottom: 40px;}
+#line2 {width: 100%;
+height: 1px;
+background-color: black;
+opacity: 0%;
+margin-bottom:30px;}
+#line3 {width: 100%;
+height: 1px;
+background-color: grey;
+opacity: 0%;
+margin-bottom: 1px;
+margin-top: -1px;}
+
+#InfoConatiner {  display: flex;
+  align-items: flex-start;
+  height: ;
+width: 100%;}
+
+#NavTitle {margin-bottom: 10px;}
+
+#Bio {display: flex;
+  align-items: flex-start;
+  justify-content: ;
+  height: ;
+width: 100% ;
+    font-weight: 100;
+  }
+
+
+
+#InfoBar {  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: ;
+width: 70% ;
+
+text-decoration: none;
+margin-top: 5px;}
+
+#CollectionContainer { display: flex;
+  align-items: flex-start;
+  height: ;
+width: 100% ;
+text-decoration: none;
+}
+
+#CollectionNavBar {display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%;
+position: relative;}
+
+#NookCollection {display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+position: relative;
+margin-left: ;
+margin-right: ;}
+
+#row {  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: ;
+width: 100% ;
+margin-right: ;
+
+}
+
+#rowinfo {  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: ;
+  margin-bottom: 10px;
+width: 100% ;}
+
+#rowinfohead {  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: ;
+  margin-bottom: 0px;
+width: 100% ;}
+
+#rowguide {  display: flex;
+  align-items: flex-start;
+
+  margin-bottom: 10px;
+width: 100% ;}
+
+#Lights {display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: ;
+width: 15% ;
+
+}
+
+#playLights {border: none;
+background-color: white;
+padding: none;
+cursor: pointer;
+color: black;
+font-size: 20px;
+text-transform: uppercase;
+ margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;}
+
+#pauseLights {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+ margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;}
+
+
+#Keep {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playKeep {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pauseKeep {border: none;
+    background-color: white;
+    padding: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+        #School {display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+              height: ;
+            width: 15% ;
+
+            }
+
+        #playSchool {border: none;
+            background-color: white;
+            padding: none;
+            cursor: pointer;
+            color: black;
+            font-size: 20px;
+            text-transform: uppercase;
+             margin: 0px; padding: 0; border-width: 1px;
+            font-family: NeueBit;
+            -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;}
+
+        #pauseSchool {border: none;
+            background-color: white;
+            padding: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            color: black;
+            font-size: 20px;
+             margin: 0px; padding: 0; border-width: 1px;
+            font-family: NeueBit;
+            -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;}
+
+                #bob {display: flex;
+                      align-items: flex-start;
+                      justify-content: space-between;
+                      height: ;
+                    width: 15% ;
+
+                    }
+
+                #playbob {border: none;
+                    background-color: white;
+                    padding: none;
+                    cursor: pointer;
+                    color: black;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                     margin: 0px; padding: 0; border-width: 1px;
+                    font-family: NeueBit;
+                    -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;}
+
+                #pausebob {border: none;
+                    background-color: white;
+                    padding: none;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    color: black;
+                    font-size: 20px;
+                     margin: 0px; padding: 0; border-width: 1px;
+                    font-family: NeueBit;
+                    -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;}
+
+                        #dog {display: flex;
+                              align-items: flex-start;
+                              justify-content: space-between;
+                              height: ;
+                            width: 15% ;
+
+                            }
+
+                        #playdog {border: none;
+                            background-color: white;
+                            padding: none;
+                            cursor: pointer;
+                            color: black;
+                            font-size: 20px;
+                            text-transform: uppercase;
+                             margin: 0px; padding: 0; border-width: 1px;
+                            font-family: NeueBit;
+                            -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;}
+
+#pausedog {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+
+
+#stroll {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playstroll {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausestroll {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#ice {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playice {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pauseice {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#husband {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playhusband {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausehusband {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#pat {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playpat{border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausepat {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#sirens {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playsirens{border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausesirens {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#shop {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playshop{border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pauseshop {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#trash {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playtrash{border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausetrash {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#bird {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playbird{border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausebird {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#fire {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playfire {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausefire {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#drill {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playdrill {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausedrill {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#cement {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playcement {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausecement {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#vacuum {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playvacuum {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausevacuum {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#factory {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playfactory {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausefactory {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#gale {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playgale {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausegale {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#empty {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playempty {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pauseempty {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#toy {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playtoy {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausetoy {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#sidewalk {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playsidewalk {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausesidewalk {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#heard {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playheard {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pauseheard {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#thrifted {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playthrifted {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausethrifted {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#cup {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+
+    }
+
+#playcup {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausecup {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+#nook {display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: ;
+    width: 15% ;
+    text-decoration: none;
+
+    }
+
+#playnook {border: none;
+    background-color: white;
+    padding: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+     margin: 0px; padding: 0; border-width: 1px;
+    font-family: NeueBit;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;}
+
+#pausenook {border: none;
+background-color: white;
+padding: none;
+text-transform: uppercase;
+cursor: pointer;
+color: black;
+font-size: 20px;
+margin: 0px; padding: 0; border-width: 1px;
+font-family: NeueBit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;}
+
+a:link { text-decoration: none; }

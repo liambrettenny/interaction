@@ -1,0 +1,617 @@
+<html>
+  <head>
+    <title>Path</title>
+    <link rel="stylesheet" href="Collections.css">
+
+
+
+    <script>
+
+    document.addEventListener('play', function(e){
+        var audios = document.getElementsByTagName('audio');
+        for(var i = 0, len = audios.length; i < len;i++){
+            if(audios[i] != e.target){
+                audios[i].pause();
+            }
+        }
+    }, true);
+     </script>
+
+
+  </head>
+
+  <body>
+<div id="rowinfohead"><nav1>Directory</nav1><div id="volumes"><nav2>Volume 1</nav2><nav>Volume 2</nav><nav>Volume 3</nav></div></div>
+  <div id="time"> </div>
+
+  <div id="rowguide">
+    <div id="Bio">
+      <text>Brief</text><div id="text2"><div id="textblock">A collection of ordinary sounds sourced from day-to-day moments</div></div>
+  </div>
+  </div>
+
+      <div id="PageInfo">
+
+        <div id="backcontainer">
+  <div id="Back_btn">
+        <text><a href="https://liambrettenny.github.io/interaction/" target="_blank" style="text-decoration: none; color: black;">Return</a></text></div></div>
+
+  <div id="InfoBar">
+        <a href="https://www.linkedin.com/in/liam-brettenny-030928197/" target="_blank" style="text-decoration: none;" style="z-index: 3;"><text>Liam Brettenny</text></a>
+        <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank" style="text-decoration: none;"><text>New York, NY</text></a>
+        <a href="https://goo.gl/maps/nM24wUv3NtsvRfio7" target="_blank" style="text-decoration: none;"><text>Parsons School of Design</text></a>
+        <a href="https://docs.google.com/document/d/13l21bbjnIHigmqFNAPaLOIiBQyCVmZ77tXaECNAVA3M/edit" target="_blank" style="text-decoration: none;"><text>MPS Digital Product Design</text></a>
+        <a href="https://docs.google.com/spreadsheets/d/1Jgz7d0UFmdRNIrjR83lBtKq7QaEJHj4Ioe1s5LIk9BE/edit#gid=2034552384" target="_blank" style="text-decoration: none;"><text>Junior Designer</text></a>
+        <a href="https://courses.newschool.edu/courses/PMCD5002/" target="_blank" style="text-decoration: none;"><text>Hook</text></a>
+
+
+  </div>
+
+  </div>
+
+  <div id="line"></div>
+
+
+<div id="rowguide">
+  <div id="Bio">
+    <text>Path Archive</text><div id="text2"><div id="textblock">Traversing</div></div>
+</div>
+</div>
+
+<div id="line2"></div>
+
+
+
+
+<div id="CollectionContainer">
+
+
+
+<div id="CollectionNavBar">
+  <div id="NavTitle">Collections</div>
+  <a href="" target="_blank" style="text-decoration: none;"><text>Nook</text></a>
+  <a href="" target="_blank" style="text-decoration: none;"><text style="opacity: 50%">Subway Songs</text></a>
+  <a href="" target="_blank" style="text-decoration: none;"><text style="opacity: 50%">Terminal</text></a>
+  <a href="" target="_blank" style="text-decoration: none;"><text style="opacity: 50%">Taxi Driver</text></a>
+  <a href="" target="_blank" style="text-decoration: none;"><text style="opacity: 50%">Park Walks</text></a>
+
+
+</div>
+
+
+<div id="NookCollection">
+
+<div id="rowinfo"><text>Controls</text><text>Duration</text><text>Name</text><text>Location</text><text>Date</text><text>Time</text><text>Links</text></div>
+
+<div id="row">
+  <div id="Lights">
+  <div id="buttonLights">
+            <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Room_mp3cut.net_zauk5k.mp3" id="playerLights" loop></audio>
+
+            <button id="playLights" onclick="playAudio('Lights', Lights)">Play</button>
+            <button id="pauseLights" onclick="pauseAudio('Lights', Lights)">Pause</button>
+  </div></div><text>0:26</text><text>Lights Out</text><text>433 Menahan St</text><text>2/28/2022</text><text>7:58 AM</text><text>None</text>
+</div>
+<div id="line3"></div>
+<div id="row">
+  <div id="Keep">
+  <div id="buttonKeep">
+            <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583139/Leaving_Apartment_mp3cut.net_rf67lr.mp3" id="playerKeep" loop></audio>
+
+            <button id="playKeep" onclick="playAudio('Keep', Keep)">Play</button>
+            <button id="pauseKeep" onclick="pauseAudio('Keep', Keep)">Pause</button>
+  </div></div><text>0:26</text><text>Keep it Thoro</text><text>433 Menahan St</text><text>2/28/2022</text><text>8:01 AM</text><text>
+  <a href="https://soundcloud.com/prodigyofmobbdeep/keep-it-thoro-main" target="_blank" style="text decoration: none; color:black;">Yes</a></text>
+
+
+</div>
+
+<div id="line3"></div>
+<div id="row">
+  <div id="School">
+  <div id="buttonSchool">
+            <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/School_xp73rb.mp3" id="playerSchool" loop></audio>
+
+            <button id="playSchool" onclick="playAudio('School', School)">Play</button>
+            <button id="pauseSchool" onclick="pauseAudio('School', School)">Pause</button>
+  </div></div><text>0:26</text><text>School Yard</text><text>559 Cypress Ave</text><text>2/28/2022</text><text>8:03 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+  <div id="bob">
+  <div id="buttonbob">
+            <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646206458/bobbuilder_mp3cut.net_jkxiey.mp3" id="playerbob" loop></audio>
+
+            <button id="playbob" onclick="playAudio('bob', bob)">Play</button>
+            <button id="pausebob" onclick="pauseAudio('bob', bob)">Pause</button>
+  </div></div><text>0:26</text><text>Bob the Builder</text><text>1711 Bleecker St</text><text>2/28/2022</text><text>8:04 AM</text><text>
+  <a href="https://letterboxd.com/liambrettenny/film/bob-the-builder-a-christmas-to-remember/" target="_blank" style="text-decoration: none; color: black;">Yes</a></text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+  <div id="dog">
+  <div id="buttondog">
+            <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Dog_Barking_mp3cut.net_aympzh.mp3" id="playerdog" loop></audio>
+
+            <button id="playdog" onclick="playAudio('dog', dog)">Play</button>
+            <button id="pausedog" onclick="pauseAudio('dog', dog)">Pause</button>
+  </div></div><text>0:26</text><text>Dog Bark</text><text>1535 Green Ave</text><text>2/28/2022</text><text>8:06 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+  <div id="stroll">
+  <div id="buttonstroll">
+            <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646206858/Sidewalk_mp3cut.net_1_pwfksq.mp3" id="playerstroll" loop></audio>
+
+            <button id="playstroll" onclick="playAudio('stroll', stroll)">Play</button>
+            <button id="pausestroll" onclick="pauseAudio('stroll', stroll)">Pause</button>
+  </div></div><text>0:26</text><text>Stroll</text><text>559 Cypress Ave</text><text>2/28/2022</text><text>8:07 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="ice">
+<div id="buttonice">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Ice_Cream_Truck_mp3cut.net_aukkiy.mp3" id="playerice" loop></audio>
+
+          <button id="playice" onclick="playAudio('ice', ice)">Play</button>
+          <button id="pauseice" onclick="pauseAudio('ice', ice)">Pause</button>
+</div></div><text>0:26</text><text>Ice Cream Truck</text><text>17-11 Harman St</text><text>2/28/2022</text><text>8:11 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="husband">
+<div id="buttonhusband">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Husband_przv5v.mp3" id="playerhusband" loop></audio>
+
+          <button id="playhusband" onclick="playAudio('husband', husband)">Play</button>
+          <button id="pausehusband" onclick="pauseAudio('husband', husband)">Pause</button>
+</div></div><text>0:26</text><text>Husband</text><text>423 Stanhorpe St</text><text>2/28/2022</text><text>8:15 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="pat">
+<div id="buttonpat">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Postman_uy4ehg.mp3" id="playerpat" loop></audio>
+
+          <button id="playpat" onclick="playAudio('pat', pat)">Play</button>
+          <button id="pausepat" onclick="pauseAudio('pat', pat)">Pause</button>
+</div></div><text>0:26</text><text>Postman Pat</text><text>1658 Dekalb Ave</text><text>2/28/2022</text><text>8:17 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="sirens">
+<div id="buttonsirens">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Ambulance_erf4dj.mp3" id="playersirens" loop></audio>
+
+          <button id="playsirens" onclick="playAudio('sirens', sirens)">Play</button>
+          <button id="pausesirens" onclick="pauseAudio('sirens', sirens)">Pause</button>
+</div></div><text>0:26</text><text>Sirens</text><text>104 St Nicholas Ave</text><text>2/28/2022</text><text>8:23 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="shop">
+<div id="buttonshop">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Shop_mp3cut.net_xruf3v.mp3" id="playershop" loop></audio>
+
+          <button id="playshop" onclick="playAudio('shop', shop)">Play</button>
+          <button id="pauseshop" onclick="pauseAudio('shop', shop)">Pause</button>
+</div></div><text>0:26</text><text>Shop</text><text>66 Wyckoff Ave</text><text>2/28/2022</text><text>8:29 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="trash">
+<div id="buttontrash">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Throwing_away_trash_oujoia.mp3" id="playertrash" loop></audio>
+
+          <button id="playtrash" onclick="playAudio('trash', trash)">Play</button>
+          <button id="pausetrash" onclick="pauseAudio('trash', trash)">Pause</button>
+</div></div><text>0:26</text><text>Trash Day</text><text>40 St Nicholas Ave</text><text>2/28/2022</text><text>8:31 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="bird">
+<div id="buttonbird">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Birds_b8kgut.mp3" id="playerbird" loop></audio>
+
+          <button id="playbird" onclick="playAudio('bird', bird)">Play</button>
+          <button id="pausebird" onclick="pauseAudio('bird', bird)">Pause</button>
+</div></div><text>0:26</text><text>Song Bird</text><text>279 Starr St</text><text>2/28/2022</text><text>8:33 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="fire">
+<div id="buttonfire">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Convo_akqnle.mp3" id="playerfire" loop></audio>
+
+          <button id="playfire" onclick="playAudio('fire', fire)">Play</button>
+          <button id="pausefire" onclick="pauseAudio('fire', fire)">Pause</button>
+</div></div><text>0:26</text><text>Fireside Chats</text><text>271 Starr St</text><text>2/28/2022</text><text>8:35 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="drill">
+<div id="buttondrill">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Drilling_stzlty.mp3" id="playerdrill" loop></audio>
+
+          <button id="playdrill" onclick="playAudio('drill', drill)">Play</button>
+          <button id="pausedrill" onclick="pauseAudio('drill', drill)">Pause</button>
+</div></div><text>0:26</text><text>Drill Much</text><text>247 Starr St</text><text>2/28/2022</text><text>8:37 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="cement">
+<div id="buttoncement">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Cement_truck_dsfzvc.mp3" id="playercement" loop></audio>
+
+          <button id="playcement" onclick="playAudio('cement', cement)">Play</button>
+          <button id="pausecement" onclick="pauseAudio('cement', cement)">Pause</button>
+</div></div><text>0:26</text><text>Cement Truck</text><text>234 Starr St</text><text>2/28/2022</text><text>8:40 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="vacuum">
+<div id="buttonvacuum">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Clean_up_ptez5l.mp3" id="playervacuum" loop></audio>
+
+          <button id="playvacuum" onclick="playAudio('vacuum', vacuum)">Play</button>
+          <button id="pausevacuum" onclick="pauseAudio('vacuum', vacuum)">Pause</button>
+</div></div><text>0:26</text><text>Vacuum Man</text><text>207 Starr St</text><text>2/28/2022</text><text>8:42AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="factory">
+<div id="buttonfactory">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Factory_eka2tx.mp3" id="playerfactory" loop></audio>
+
+          <button id="playfactory" onclick="playAudio('factory', factory)">Play</button>
+          <button id="pausefactory" onclick="pauseAudio('factory', factory)">Pause</button>
+</div></div><text>0:26</text><text>Factory</text><text>100 Irving Ave</text><text>2/28/2022</text><text>8:45 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="gale">
+<div id="buttongale">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Windy_hdbdj3.mp3" id="playergale" loop></audio>
+
+          <button id="playgale" onclick="playAudio('gale', gale)">Play</button>
+          <button id="pausegale" onclick="pauseAudio('gale', gale)">Pause</button>
+</div></div><text>0:26</text><text>Gale Force</text><text>324 Suydam St</text><text>2/28/2022</text><text>8:46AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="empty">
+<div id="buttonempty">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Park_ds5x3k.mp3" id="playerempty" loop></audio>
+
+          <button id="playempty" onclick="playAudio('empty', empty)">Play</button>
+          <button id="pauseempty" onclick="pauseAudio('empty', empty)">Pause</button>
+</div></div><text>0:26</text><text>Empty Park</text><text>92 Irving Ave</text><text>2/28/2022</text><text>8:49 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="toy">
+<div id="buttontoy">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Kid_with_bike_e1hi7r.mp3" id="playertoy" loop></audio>
+
+          <button id="playtoy" onclick="playAudio('toy', toy)">Play</button>
+          <button id="pausetoy" onclick="pauseAudio('toy', toy)">Pause</button>
+</div></div><text>0:26</text><text>Toy Car</text><text>229 Knickerbocker Ave</text><text>2/28/2022</text><text>8:51 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="sidewalk">
+<div id="buttonsidewalk">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646210735/So_much_sidewalk_mp3cut.net_dhw1tx.mp3" id="playersidewalk" loop></audio>
+
+          <button id="playsidewalk" onclick="playAudio('sidewalk', sidewalk)">Play</button>
+          <button id="pausesidewalk" onclick="pauseAudio('sidewalk', sidewalk)">Pause</button>
+</div></div><text>0:26</text><text>Sidewalk</text><text>221 Knickerbocker Ave</text><text>2/28/2022</text><text>8:54 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="thrifted">
+<div id="buttonthrifted">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1645583138/Thrifted_mp3cut.net_eibaic.mp3" id="playerthrifted" loop></audio>
+
+          <button id="playthrifted" onclick="playAudio('thrifted', thrifted)">Play</button>
+          <button id="pausethrifted" onclick="pauseAudio('thrifted', thrifted)">Pause</button>
+</div></div><text>0:26</text><text>Thrift</text><text>274 Troutman St</text><text>2/28/2022</text><text>8:59 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="heard">
+<div id="buttonheard">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/People_talking_hv1b3m.mp3" id="playerheard" loop></audio>
+
+          <button id="playheard" onclick="playAudio('heard', heard)">Play</button>
+          <button id="pauseheard" onclick="pauseAudio('heard', heard)">Pause</button>
+</div></div><text>0:26</text><text>Overheard</text><text>289 Troutman St</text><text>2/28/2022</text><text>9:03 AM</text><text>None</text>
+
+</div>
+<div id="line3"></div>
+
+<div id="row">
+<div id="cup">
+<div id="buttoncup">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183933/Nook_enter_z64i4j.mp3" id="playercup" loop></audio>
+
+          <button id="playcup" onclick="playAudio('cup', cup)">Play</button>
+          <button id="pausecup" onclick="pauseAudio('cup', cup)">Pause</button>
+</div></div><text>0:26</text><text>Cuppuccino</text><text>45 Irving Ave</text><text>2/28/2022</text><text>9:06 AM</text><text>None</text>
+</div>
+
+<div id="line3"></div>
+
+<div id="row">
+<div id="nook">
+<div id="buttonnook">
+          <audio src="https://res.cloudinary.com/dl5o7qorw/video/upload/v1646183932/Atmosphere_nook_biskfc.mp3" id="playernook" loop></audio>
+
+          <button id="playnook" onclick="playAudio('nook', nook)">Play</button>
+          <button id="pausenook" onclick="pauseAudio('nook', nook)">Pause</button>
+</div></div><text>0:26</text><text>Nook Noise</text><text>45 Irving Ave</text><text>2/28/2022</text><text>9:09 AM</text><text>
+<a href="https://www.yelp.com/biz/nook-brooklyn?hrid=dvb_azxTCBjSyNvy17zeBw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank" style="text decoration: none; color:black;">Yes</a></text>
+</div>
+
+<div id="line3"></div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+  function playAudio(audioName, audioObject) {
+    console.log('Audio Name is: ', audioName);
+    console.log('AudioObject is: ', audioObject);
+    if(audioName === 'shop'){
+      document.getElementById('playershop').play(audioObject);
+    }
+    else if (audioName === 'Lights'){
+      document.getElementById('playerLights').play(audioObject);
+    }
+    else if (audioName === 'Keep'){
+      document.getElementById('playerKeep').play(audioObject);
+    }
+    else if (audioName === 'School'){
+      document.getElementById('playerSchool').play(audioObject);
+    }
+    else if (audioName === 'bob'){
+      document.getElementById('playerbob').play(audioObject);
+    }
+    else if (audioName === 'dog'){
+      document.getElementById('playerdog').play(audioObject);
+    }
+    else if (audioName === 'stroll'){
+      document.getElementById('playerstroll').play(audioObject);
+    }
+    else if (audioName === 'ice'){
+      document.getElementById('playerice').play(audioObject);
+    }
+    else if (audioName === 'husband'){
+      document.getElementById('playerhusband').play(audioObject);
+    }
+    else if (audioName === 'pat'){
+      document.getElementById('playerpat').play(audioObject);
+    }
+    else if (audioName === 'sirens'){
+      document.getElementById('playersirens').play(audioObject);
+    }
+    else if (audioName === 'trash'){
+      document.getElementById('playertrash').play(audioObject);
+    }
+    else if (audioName === 'bird'){
+      document.getElementById('playerbird').play(audioObject);
+    }
+    else if (audioName === 'fire'){
+      document.getElementById('playerfire').play(audioObject);
+    }
+    else if (audioName === 'drill'){
+      document.getElementById('playerdrill').play(audioObject);
+    }
+    else if (audioName === 'cement'){
+      document.getElementById('playercement').play(audioObject);
+    }
+    else if (audioName === 'vacuum'){
+      document.getElementById('playervacuum').play(audioObject);
+    }
+    else if (audioName === 'factory'){
+      document.getElementById('playerfactory').play(audioObject);
+    }
+    else if (audioName === 'gale'){
+      document.getElementById('playergale').play(audioObject);
+    }
+    else if (audioName === 'empty'){
+      document.getElementById('playerempty').play(audioObject);
+    }
+    else if (audioName === 'toy'){
+      document.getElementById('playertoy').play(audioObject);
+    }
+    else if (audioName === 'sidewalk'){
+      document.getElementById('playersidewalk').play(audioObject);
+    }
+    else if (audioName === 'thrift'){
+      document.getElementById('playerthrift').play(audioObject);
+    }
+    else if (audioName === 'heard'){
+      document.getElementById('playerheard').play(audioObject);
+    }
+    else if (audioName === 'cup'){
+      document.getElementById('playercup').play(audioObject);
+    }
+    else if (audioName === 'nook'){
+      document.getElementById('playernook').play(audioObject);
+    }
+    else if (audioName === 'thrifted'){
+      document.getElementById('playerthrifted').play(audioObject);
+    }
+
+
+  }
+
+  function pauseAudio(audioName, audioObject) {
+    console.log('Audio Name is: ', audioName);
+    console.log('AudioObject is: ', audioObject);
+    if(audioName === 'shop'){
+      document.getElementById('playershop').pause(audioObject);
+    }
+    else if (audioName === 'Lights'){
+      document.getElementById('playerLights').pause(audioObject);
+    }
+    else if (audioName === 'Keep'){
+      document.getElementById('playerKeep').pause(audioObject);
+    }
+    else if (audioName === 'School'){
+      document.getElementById('playerSchool').pause(audioObject);
+    }
+    else if (audioName === 'bob'){
+      document.getElementById('playerbob').pause(audioObject);
+    }
+    else if (audioName === 'dog'){
+      document.getElementById('playerdog').pause(audioObject);
+    }
+    else if (audioName === 'stroll'){
+      document.getElementById('playerstroll').pause(audioObject);
+    }
+    else if (audioName === 'ice'){
+      document.getElementById('playerice').pause(audioObject);
+    }
+    else if (audioName === 'husband'){
+      document.getElementById('playerhusband').pause(audioObject);
+    }
+    else if (audioName === 'pat'){
+      document.getElementById('playerpat').pause(audioObject);
+    }
+    else if (audioName === 'sirens'){
+      document.getElementById('playersirens').pause(audioObject);
+    }
+    else if (audioName === 'trash'){
+      document.getElementById('playertrash').pause(audioObject);
+    }
+    else if (audioName === 'bird'){
+      document.getElementById('playerbird').pause(audioObject);
+    }
+    else if (audioName === 'fire'){
+      document.getElementById('playerfire').pause(audioObject);
+    }
+    else if (audioName === 'drill'){
+      document.getElementById('playerdrill').pause(audioObject);
+    }
+    else if (audioName === 'cement'){
+      document.getElementById('playercement').pause(audioObject);
+    }
+    else if (audioName === 'vacuum'){
+      document.getElementById('playervacuum').pause(audioObject);
+    }
+    else if (audioName === 'factory'){
+      document.getElementById('playerfactory').pause(audioObject);
+    }
+    else if (audioName === 'gale'){
+      document.getElementById('playergale').pause(audioObject);
+    }
+    else if (audioName === 'empty'){
+      document.getElementById('playerempty').pause(audioObject);
+    }
+    else if (audioName === 'toy'){
+      document.getElementById('playertoy').pause(audioObject);
+    }
+    else if (audioName === 'sidewalk'){
+      document.getElementById('playersidewalk').pause(audioObject);
+    }
+    else if (audioName === 'thrift'){
+      document.getElementById('playerthrift').pause(audioObject);
+    }
+    else if (audioName === 'heard'){
+      document.getElementById('playerheard').pause(audioObject);
+    }
+    else if (audioName === 'cup'){
+      document.getElementById('playercup').pause(audioObject);
+    }
+    else if (audioName === 'nook'){
+      document.getElementById('playernook').pause(audioObject);
+    }
+    else if (audioName === 'thrifted'){
+      document.getElementById('playerthrifted').pause(audioObject);
+    }
+
+
+  }
+
+
+  `use strict`;
+  function refreshTime() {
+    const timeDisplay = document.getElementById("time");
+    const dateString = new Date().toLocaleString();
+    const formattedString = dateString.replace(", ", " - ");
+    timeDisplay.textContent = formattedString;
+  }
+    setInterval(refreshTime, 1000);
+
+    `use strict`
+var datetime = new Date().getHours()+1;
+console.log(datetime); // it will represent date in the console of developers tool
+document.getElementById("time").textContent = datetime; // represent on webbrowser
+
+</script>
+
+
+
+
+
+</body>
+</html>

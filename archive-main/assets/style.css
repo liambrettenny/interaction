@@ -1,0 +1,386 @@
+/* These styles are just to make it easier to see the blocks, initially. */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Gruppo&family=Kumar+One+Outline&family=Londrina+Outline&family=Monoton&family=Neonderthaw&family=Rakkas&family=Reenie+Beanie&family=Sriracha&family=Yellowtail&display=swap');
+
+
+
+body {
+	font-family: ;
+	padding: 0px;
+	background-color: black;
+}
+
+a {
+	color: ;
+}
+
+h3 {font-size: 30px;}
+
+
+
+.link {font-size: 12px;}
+
+
+
+
+
+
+
+#channel-description {text-transform: uppercase;
+;
+border:;
+margin-bottom: 20px;
+font-family: 'Yellowtail', cursive;
+position: relative;
+font-size: 30px;
+border-style: ;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 1s;
+ display: ;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 1s infinite;
+}
+
+#credit {position: fixed;
+}
+
+#text1 {color:white;
+	bottom: 0;
+	z-index:10;
+	height: auto;
+	position: fixed;
+margin-top: ;
+margin-bottom: ;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 5.5s;
+ display:;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 5.5s infinite;}
+
+#text2 {color:white;
+	bottom: 0;
+	height: auto;
+	position: fixed;
+margin-top: ;
+margin-bottom: 20px;
+z-index: 20;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 3.5s;
+ display:;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 3.5s infinite;}
+
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
+  }
+}
+
+.link-block {text-transform: uppercase;
+position:;
+border: 1px;
+border-style: solid;
+border-radius: ;
+font-family: 'Yellowtail', cursive;
+
+border-style: ;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 6s;
+ display:;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 6s infinite;
+ transition: all .1s ease-in-out;
+
+}
+
+.link-block:hover { }
+
+.video-embed-block {text-transform: uppercase;
+position:;
+border: 1px;
+border-style: solid;
+border-radius: ;
+font-family: 'Yellowtail', cursive;
+
+border-style: ;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 5s;
+ display:;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 5s infinite;
+}
+
+.audio-embed-block {text-transform: uppercase;
+position:;
+border: 1px;
+border-style: solid;
+border-radius: ;
+font-family: 'Yellowtail', cursive;
+
+border-style: ;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 2s;
+ display:;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 2s infinite;
+}
+
+.image-block {text-transform: uppercase;
+position:;
+border: 1px;
+border-style: solid;
+border-radius: ;
+font-family: 'Yellowtail', cursive;
+width: 33.33%;
+border-style: ;
+color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+
+	--interval: 3s;
+ display: inline-block;
+ text-shadow:
+	 0 0 10px var(--color1),
+	 0 0 20px var(--color2),
+	 0 0 40px var(--color3),
+	 0 0 80px var(--color4);
+ will-change: filter, color;
+ filter: saturate(60%);
+ animation: flicker steps(100) var(--interval) 3s infinite;
+}
+
+#head_container {
+
+	display: inline-block;
+	width: 15%;
+	position: fixed;
+}
+
+
+#bio {color: ;
+
+	text-transform: uppercase;
+	font-family: 'Yellowtail', cursive;
+position: relative;
+margin-top: 0px;
+
+	width: px;
+	font-size: 12px;
+
+
+
+	border-style: ;
+	color: yellow;
+	  --color1: yellow;
+	  --color2: lime;
+	  --color3: green;
+	  --color4: darkgreen;
+
+		--interval: 4s;
+	 display:;
+	 text-shadow:
+		 0 0 10px var(--color1),
+		 0 0 20px var(--color2),
+		 0 0 40px var(--color3),
+		 0 0 80px var(--color4);
+	 will-change: filter, color;
+	 filter: saturate(60%);
+	 animation: flicker steps(100) var(--interval) 4s infinite;
+
+}
+
+
+
+
+
+
+
+section, figure {height: px;}
+
+section {width: 85%;
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: ;
+	padding-left: 40px;
+
+}
+
+#plus_container {
+
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+    bottom: 0;
+		padding-bottom: 50px;
+		z-index: 3;
+
+
+
+
+}
+
+
+#mask_container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+		bottom: 0;
+		z-index: 8;
+		padding-bottom: 50px;}
+
+#mask {
+
+
+
+}
+
+
+#plus {
+	margin-left: 15%;
+	text-transform: uppercase;
+	font-family: 'Yellowtail', cursive;
+display: inline-block;
+background-color: black;
+
+	width: px;
+	font-size: 20px;
+z-index: 8;
+border-style: solid;
+border-radius: 20px;
+border-width: 1px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+	border-style: ;
+	color: yellow;
+	  --color1: yellow;
+	  --color2: lime;
+	  --color3: green;
+	  --color4: darkgreen;
+
+		--interval: 1s;
+	 display:;
+	 text-shadow:
+		 0 0 10px var(--color1),
+		 0 0 20px var(--color2),
+		 0 0 40px var(--color3),
+		 0 0 80px var(--color4);
+	 will-change: filter, color;
+	 filter: saturate(60%);
+	 animation: flicker steps(100) var(--interval) 1s infinite;
+	}
+
+
+}
+
+h3 {color: white;}
+h1 {display: none;}
+figure {
+	display: inline-block;
+
+
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+}
+
+
+figure:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#channel-description > *,
+figure > *:not(:first-child),
+.description > *:not(:first-child),
+.content > *:not(:first-child) {
+	display: grid;
+	margin-top: ;
+
+}
+
+
+
+
+/* Clear them out once you’ve got your channel plugged in! */
